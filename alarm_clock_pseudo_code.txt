@@ -1,0 +1,7 @@
+what time clock set?
+Do you what military or standard time?
+if the current time matches the set time make a sound
+would you like to stop or snooze alarm?
+if  user  stop alarm, alarm stops
+if user snooze  alarm, add 10 minutes to the alarm time 
+return to step 3
