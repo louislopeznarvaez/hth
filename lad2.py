@@ -4,13 +4,16 @@
 neame = "louis lopez narvaez"
 
 ## step 2
+nickname = " "
+
+## step 3
 age = 17
 
-## stepe 3
+## stepe 4
 used_python = False 
 
-## step 4
+## step 5
 hobbies = ["gaming","watching amine","go out to the movies with friensds"]
 
-##  step 5
+## step 6
 favorite_things = {"amine":"one piece","food":"wingstop","color":"red",}
