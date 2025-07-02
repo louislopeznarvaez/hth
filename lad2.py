@@ -16,4 +16,4 @@ used_python = False
 hobbies = ["gaming","watching amine","go out to the movies with friensds"]
 
 ## step 6
-favorite_things = {"amine":"one piece","food":"wingstop","color":"red",}
+favorite_things = {"amine":"one piece","food":"wingstop","color":"red"}
