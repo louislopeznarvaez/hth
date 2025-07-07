@@ -3,7 +3,7 @@
 #task 1: working with strings
 food = "wingstop"
 print(food[0:3])
-print(food[-3:-1])
+print(food[-3:8])
 first_last= food[0]+ food[-1]
 print(first_last)
 food_list= food.split()
@@ -22,7 +22,7 @@ print(number_list)
 number_list.remove(number_list[1])
 print(number_list)
 print(number_list[0:3])
-print(number_list[-3:-1])
+print(number_list[-3:])
 first_last= number_list[0] + number_list[-1]
 print(first_last)
 
@@ -30,8 +30,8 @@ print(first_last)
 books= {"kazu kibuishi":"amulet", "michelle zauner":"H mart", "tommy orange":"there there", "angie thomas":"the hate u give"}
 print(books.keys())
 print(books.values())
-print(books.get("kazu kibuishi"))
+print(books.get("michelle zauner"))
 books.pop("tommy orange")
 print(books)
-del books["michelle zauner"]
+del books["kazu kibuishi"]
 print(books)
