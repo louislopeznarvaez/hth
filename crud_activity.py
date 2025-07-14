@@ -4,9 +4,9 @@ def create(recipe):
     print(f"{recipe} has been added to the cookbook")
     
 def read(index):
-    cookbook.index(index)
+    cookbook.index()
     if index in range (len[cookbook]):
-        return cookbook[index]
+        print(cookbook[index])
     else:
                 print("sorry sir, theres not enough space in the list")
 
@@ -73,5 +73,4 @@ def main():
 
 main()
 
-if __name__ == "__main__":
-   print(read(0))
+
