@@ -14,8 +14,8 @@ def main():
     armor_plate = Armor("Armor Plate", 40)
 
     # Create heroes
-    hero1 = Hero("Grace Hopper", 200)
-    hero2 = Hero("Alan Turing", 150)
+    hero1 = Hero("batman", 200)
+    hero2 = Hero("superman", 150)
 
     # Add abilities to heroes
     hero1.add_ability(fireball)
