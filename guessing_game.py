@@ -8,7 +8,7 @@ def guessing_game():
             if 1<= (user_input) <= 100:
                 return user_input
             else:
-                print("enter a correct number between 1 and 100")
+                print("enter a correct number between 1 and 100")   #this code tells us to choose a number and if we get it wrong it gonna check it and its gonna tell us to put a valid number
         
         except ValueError:
             print("please enter a valid number")
@@ -26,7 +26,7 @@ def play_game():
         guess = guessing_game()
 
         if guess < secret_number:
-            print("your guess is too low, try again")
+            print("your guess is too low, try again") #this code tells us if we guessed too low or too high
 
         elif guess > secret_number:
             print("your guess is too high, try again")
@@ -41,7 +41,7 @@ def game_loop():
     while True:
         play_game()
 
-        user_input= input("do you want to play again").lower()
+        user_input= input("do you want to play again").lower() # this code asks if we want to play again if we do it will play again
         if user_input == "yes":
             play_game()
         else:
